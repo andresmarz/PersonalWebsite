@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         e.preventDefault();
 
         const data = {
-            nombres: document.getElementById("nombre").value,
+            nombres: document.getElementById("nombres").value,
             apellidos: document.getElementById("apellidos").value,
             email: document.getElementById("email").value,
             telefono: document.getElementById("telefono").value,
